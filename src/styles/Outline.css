@@ -1,0 +1,29 @@
+h2 {
+    text-align: center;
+}
+
+.outline-non {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    border: 2px solid yellow;
+}
+
+
+/* El outline no cuenta como tamaño de caja. El border si. Por eso siempre el outline va por fuera del border. */
+
+
+/* La propiedad outline-offset permite situar el outline a una distancia de la caja. Incluso ponerlo por dentro en caso de ser un valor negativo: -5px por ejemplo. */
+
+.outline-yes {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    outline: 10px solid yellow;
+    outline-offset: 10px;
+    border: 10px solid red;
+}
