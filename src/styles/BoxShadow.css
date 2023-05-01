@@ -1,0 +1,42 @@
+/* El tercer parametro de box-shadow es la cantidad de blur de la sombra. Es un poco una especie de desenfocado (sin contar inset)
+El cuarto parametro de box-shadow es el spread de la sombra. Es decir lo que se expande.
+Con inset lo que hacemos es que el box-shadow vaya por dentro de la caja no por fuera
+ */
+
+
+/* El Box shadow no espacio dentro del box-model.
+Podemos poner varias box-shadow a un mismo elemento separando cada grupo de elementos por una coma.
+*/
+
+.box-shadow {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid green;
+    box-shadow: 10px 5px 10px 5px gold;
+}
+
+.box-shadow-2 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid green;
+    box-shadow: -10px -5px 0 2px gold;
+}
+
+.box-shadow-inset {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 239, 10);
+    box-shadow: inset -5px -5px 4px 2px rgba(255, 217, 0, 0.215);
+}
