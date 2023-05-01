@@ -1,14 +1,13 @@
 import BoxModel from "./Components/BoxModel";
-// import Ejemplo1 from "./Components/Ejemplo1"
-// import Herencia from "./Components/Herencia"
+import BorderRadius from "./Components/BorderRadius";
+
 
 function App() {
   return (
     <div >
-      {/* <Ejemplo1 />
-      <Herencia /> */}
-
-      <BoxModel/>
+      <BoxModel />
+      <hr/>
+      <BorderRadius />
     </div>
   );
 }
