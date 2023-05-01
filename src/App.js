@@ -1,11 +1,14 @@
-import Ejemplo1 from "./Components/Ejemplo1"
-import Herencia from "./Components/Herencia"
+import BoxModel from "./Components/BoxModel";
+// import Ejemplo1 from "./Components/Ejemplo1"
+// import Herencia from "./Components/Herencia"
 
 function App() {
   return (
     <div >
-      <Ejemplo1 />
-      <Herencia />
+      {/* <Ejemplo1 />
+      <Herencia /> */}
+
+      <BoxModel/>
     </div>
   );
 }

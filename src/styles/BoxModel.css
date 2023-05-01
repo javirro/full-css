@@ -1,0 +1,32 @@
+body {
+    background-color: #333;
+    color: #fff
+}
+
+.small-box {
+    border: 2px solid white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Elementos de linea: a, span, etc no se les puede definir un width o height */
+
+
+/* Elementos de linea: a, span, solo tienen margenes laterales, pero no tienen margin top o bottom */
+
+
+/* Propiedad margin 4 valores: top right bottom left  --> Agujas del reloj*/
+
+
+/* Propiedad margin 2 valores: top/bottom right/left  --> Agujas del reloj*/
+
+
+/* margin-left: auto pega el componente a la derecha */
+
+
+/* margin-right: auto pega el componente a la izquierda */
+
+
+/* Para que margin left/right auto funcione, nuestro bloque debe tener definido un width determinado, sino no funciona */
