@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+}
+
+.text-align-non {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    width: 100px;
+    padding: 30px;
+    border: 2px solid yellow;
+}
+
+
+/* textAlign nos permite alinear horizontalmente el texto de un bloque. SI tiene un ancho definido ese bloque puede dar problemas. */
+
+.text-align-yes {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    outline: 10px solid yellow;
+    outline-offset: 10px;
+    border: 10px solid red;
+}
+
+
+/* Ejemplo de convertir inline a block para poder hacerle un text-align */
+
+.link-text {
+    color: #fff;
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/* En este caso, tiene un width determinado y aunque hayams puesto text-align center, lo que hace es alinear el texto dentro de la caja, pero no alinea la caja del texto */
+
+.link-text-not-working {
+    color: #fff;
+    margin-top: 40px;
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    width: 300px;
+}
