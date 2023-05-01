@@ -1,0 +1,34 @@
+.box-display {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+    border: 5px solid yellow;
+}
+
+a#inline-block-a {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightblue;
+    font-size: 20px;
+}
+
+a#block-a {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightblue;
+    font-size: 20px;
+}
+
+
+/*
+display: none --> Lo que hace es que no se muestra pero si que se carga por detras
+display: block --> Lo que hace es que un elemento no es de bloque, se comporte como tal. Ejemplo a un <a> ponerle display block para asignarle un width.
+display: inline --> Lo que hace es que elementos de bloque se comportan como elementos de linea. Por ejemplo ya no deja darles un width
+display: inline-block --> Lo que hace que un elemento siga siendo de linea pero tambien tenga las propiedades de elementos de bloque (width o margin top)
+*/
