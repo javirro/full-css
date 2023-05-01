@@ -3,15 +3,30 @@ body {
     color: #fff
 }
 
+h1 {
+    text-align: center;
+}
+
 .small-box {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 30px 60px;
     border-width: 1px;
     border-style: dashed;
-    border-color: white
+    border-color: white;
+    box-sizing: content-box;
+}
+
+.small-box-2 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    box-sizing: border-box;
 }
 
 
@@ -40,3 +55,11 @@ Si combinamos estas dos lo que hacemos es colocar elemento en el centro  */
 
 
 /* En cuanto a los styles hay un monton, dashed, dot, groove, ridge... Si se necesitan buscar info sobre ello. */
+
+
+/* Box-sizing: permite definir el tamaño del contenedor. Muy util para hacer una caja de un tamaño determinado considerando el contenido solo o tambien el padding y border 
+Por defecto: --> box-sizing: content-box (Esto implica el tamaño del contenido solo, es decir, si le ponemos width: 200px. Eso sera para el contenido) Si luego tiene padding
+ el tamaño total del box sera 200px + padding + border
+
+ Si queremos que los 200px sea el total, entonces le definidimos box-sizing: border-box
+*/
