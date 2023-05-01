@@ -1,5 +1,6 @@
 import BoxModel from "./Components/BoxModel";
-import BorderRadius from "./Components/BorderRadius";
+import BorderRadius from "./Components/BorderRadius"
+import OverFlow from "./Components/OverFlow"
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <BoxModel />
       <hr/>
       <BorderRadius />
+      <hr />
+      <OverFlow />
     </div>
   );
 }

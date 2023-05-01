@@ -1,0 +1,37 @@
+.box-overflow-auto {
+    overflow: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    height: 400px;
+}
+
+.box-overflow-scroll {
+    overflow-y: scroll;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    height: 400px;
+}
+
+p {
+    width: 200px;
+}
+
+
+/* 
+overflow:
+- visible: Es el valor por defecto. No hace nada.
+- hidden: Evita desbordamiento y automaticamente se pone scroll.
+- scroll: Lo que hace es que salga el scroll
+- auto: Es la mejor opcion
+Tambien se debe saber que overflow es un shorthand de overflow-x y overflow-y. Tambien se pueden utilizar por separado
+ */
