@@ -1,19 +1,16 @@
-import BoxModel from "./Components/BoxModel"
-import BorderRadius from "./Components/BorderRadius"
-import OverFlow from "./Components/OverFlow"
-import DisplaySimple from "./Components/DisplaySimple"
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Basico from './routes/Basico'
+import Basico2 from './routes/Basico2'
 
 function App() {
   return (
     <div >
-      <BoxModel />
-      <hr />
-      <BorderRadius />
-      <hr />
-      <OverFlow />
-      <hr />
-      <DisplaySimple />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/basico" element={<Basico />} />
+          <Route path="/basico2" element={<Basico2 />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
