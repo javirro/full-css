@@ -1,0 +1,23 @@
+/* ESPECIFICIDAD Y PUNTUACION DEL NAVEGADOR
+Etiquetas y pseudoelementos: 001
+Clases, atributos y pseudoclases: 010
+ids: 100
+Estilos en linea (los que ponemos sobre la etiqueta): 1000
+ */
+
+h1.title#title {
+    color: rebeccapurple;
+}
+
+
+/* Si añadimos !important nos saltamos los criterios de especificidad y le damos la maxima prioridad a esto.
+Nunca se debe usar !important
+*/
+
+h1 {
+    color: blue !important;
+}
+
+h1.title {
+    color: crimson;
+}

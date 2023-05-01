@@ -1,0 +1,24 @@
+/* Selectores agrupados */
+
+h1,
+h2,
+h3 {
+    color: red;
+}
+
+.text {
+    color: blue
+}
+
+
+/* Selector hermano siguiente.
+  Dentro del flujo de etiquetas, lo que hace coge al hermano siguiente de clase TEXT de los elementos con clase TITLE-1 (Solo a 1)
+*/
+
+.title-1+.text {
+    color: aqua;
+}
+
+.title-2~.text {
+    color: orchid;
+}

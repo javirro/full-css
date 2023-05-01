@@ -1,0 +1,25 @@
+/*
+Los enlances por defecto <a> No heredan de las propiedades de su padre (por ejemplo el color)
+Si queremos que hereden el color del elemento padre podemos utilizar el valor inherit para cualquier propiedad que no se herede.
+ */
+
+p {
+    color: rgb(113, 113, 0);
+}
+
+.link {
+    color: inherit
+}
+
+
+/* Tambien puede darse el caso contrario, queremos que un elemento no herede la propiedad del padre
+En este caso, tenemos una lista con color darkRed, todos las lineas de la lista van a heredar ese color, salvo que definamos el color como INITIAL
+ */
+
+.list {
+    color: darkred;
+}
+
+.list-item-extra {
+    color: initial
+}
