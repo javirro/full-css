@@ -1,0 +1,25 @@
+.main-box {
+    width: 50%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.width-1 {
+    width: 75%;
+    height: 50%;
+    background-color: rgb(255, 112, 205);
+    position: relative;
+    margin-left: 200px;
+}
+
+
+/* Cuando se ponen margenes, los widths con porcentajes pueden dar problemas porque puede que una caja de dentro se nos salga del tamaño del padre.
+En estos casos, lo más recomendable es poner width: auto cuando se pone con margenes. De esa forma, ocupara todo el espacio posible y mostrara los margenes correctamente.*/
+
+
+/* En height el valor auto se calcula respecto a los elementos que hay dentro del contenedor donde se usa. Si no hay nada, height es 0.
+
+Si no es necesario fijar un alto, mejor no utilizarlo. Dejar que el contenido sea quien marque el height a usar.*/
+
+
+/* No es recomendable usar height con propiedades de posicionamiento */
