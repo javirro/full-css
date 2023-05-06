@@ -1,0 +1,23 @@
+/* EM y REM basados en el tamaño del texto */
+
+
+/* rem: Corresponde a la medida de la "m" de la raíz del documento.  1rem = 16px*/
+
+
+/* em: Corresponde a la medida de la "m" del contexto donde nos encontramos. */
+
+
+/* El estandar del tamaño fuente de la raíz por defecto es 16px y no es recomendable cambiarlo. Tanto em como rem se calculan respecto a la propiedad font-size */
+
+
+/* Para tamaño de fuentes lo más conveniente es utolizar REM, ya que siempre tendremos la misma referencia */
+
+.article-box {
+    font-size: 32px;
+    border: 1em solid green;
+}
+
+.article-box-rem {
+    font-size: 30px;
+    border: 1rem solid rgb(0, 119, 128);
+}
