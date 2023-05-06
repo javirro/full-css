@@ -1,0 +1,42 @@
+.text-1 {
+    width: 400px;
+    word-spacing: 0.5rem;
+}
+
+.text-2 {
+    width: 400px;
+    letter-spacing: 0.5rem;
+}
+
+.text-3 {
+    width: 400px;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+
+/* For line-heigth use unitless values. Multiplier. For example: 3. Three times bigger than normal */
+
+.text-4 {
+    width: 400px;
+    font-style: italic;
+    line-height: 3;
+}
+
+.text-5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.text-6 {
+    text-shadow: 4px 4px 5px red;
+}
+
+
+/* Otras propiedades interesantes podrian ser:
+text-overflow: Para definir como se ajustaria un texto grande dentro de su contener padre.
+white-space: Relacionado con los saltos de linea y como separar palabas.
+word-break: Especifica si se puede romper palabras en un salto de linea
+ */

@@ -6,7 +6,7 @@
 * Propiedades visuales (colors, borders, background)
 * Rest of properties
 
-### ViewPort
+## ViewPort
 
 ViewPort: área útil donde se  mostrará la página. Es el área sin tener en cuenta el scroll.
 
