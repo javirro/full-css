@@ -17,3 +17,13 @@ ViewPort: área útil donde se  mostrará la página. Es el área sin tener en c
 * 1vw: Es el 1% del valor del viewport.
 * 1vh: Es el 1% del valor del viewport.
 * 100vw: Suele dar problema en vista desktop porque cuenta la barra de scroll derecha. Entonces añade un pequeño scroll horizontal. Mejor evitar esto.
+
+## After & Before
+
+Pseudolementos que son hijos del elemento al que se lo apliquemos. (Los pseudoelementos por defectos son elementos de línea (inline))
+
+* Los pseudoelementos no se representan en el DOM.
+* Se puede aplicar cualquier propiedad a los pseudoelementos (ej como si fuese un span).
+* Obligatorio debe tener la propiedad **content** para mostrar el contenido, sino, no muestra nada.
+* Estos pseudoelementos no se pueden utilizar en <img> o en <input>
+

@@ -1,0 +1,27 @@
+.span {
+    color: lightpink;
+    font-size: 2rem;
+    position: relative;
+}
+
+
+/* Para que un pseudoelemento tenga la misma anchura que el padre se debe cumplir que: El padre este en position relative, que width: 100% del pseudo y tambien position absolute */
+
+.span::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+}
+
+.span::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(9, 255, 0);
+    width: 100%;
+}
