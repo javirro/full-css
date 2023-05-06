@@ -1,0 +1,63 @@
+/* El flujo de renderizado empieza por la esquina superior izquierda -- Posicion 0,0
+Cada elemento en el navegador tiene un espacio reservado
+Todos los elementos tienen static por defecto --> Cuando se usa position se posicion las elementos en cualquiera de los 3 ejes */
+
+
+/* 5 propiedades se habilitan cuando se posiciona un elemneto (cuando están static no existe)
+top
+right
+left
+bottom
+z-index: Permite mover el elemento en el eje z ( en el contxto de apilamiento) */
+
+
+/* Los valores de position son: relative, static, absolute, fixed y sticky */
+
+
+/* Las posiciones desde las que se mueven con las propiedades (top, right, etc) es desde su posicion original en el html */
+
+
+/* El apilamiento de componentes se produce en el orden en el que aparecen en el codigo. Las cajas primeras del html son la base del apilamiento,
+Las nuevas se colocan por encima (en caso de estar posicionadas) si son static es al reves */
+
+
+/* Position absolute: El elemento pierde sus medidas y su espacio resrevado. Va a utilizar el elemento que le contenga como referencia en caso de querer moverlo. */
+
+
+/* Un elemento de position absolute que no esté dentro de un contenedor con medidas, lo que ocurre es que si lo vamos a posicionar con (right, etc) lo va a hacer respecto al html total */
+
+
+/* El position fixed funciona similar absolute. Fixed lo que hace es que deja un elemento fijo aun cuando se haga scroll */
+
+
+/* Z-index: El que tenga mayor valor es el que se coloca por encima.
+Un componente padre nunca se va a poner por encima del hijo.
+Como mucho se puede conseguir que el hijo se ponga por detras del padre.
+Entonces lo que tenemos que hacer es ponerle al hijo un z-index: -1. Para que esto el padre no puede tener un z-index declarado */
+
+.position-1 {
+    border: 5px solid lawngreen;
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+}
+
+.position-2 {
+    border: 5px solid rgb(252, 0, 206);
+    width: 100px;
+    height: 150px;
+}
+
+.position-abs-1 {
+    background-color: burlywood;
+}
+
+.position-abs-2 {
+    background-color: rgb(233, 145, 28);
+}
+
+.position {
+    width: 100px;
+}

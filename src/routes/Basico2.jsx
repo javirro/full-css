@@ -1,5 +1,6 @@
 import BoxShadow from "../Components/BoxShadow"
 import Outline from "../Components/Outline"
+import Position from "../Components/Position"
 import TextAlign from "../Components/TextAlign"
 const Basico2 = () => {
   return (
@@ -10,6 +11,7 @@ const Basico2 = () => {
       <hr />
       <BoxShadow />
       <hr />
+     <Position />
     </>
   )
 }
