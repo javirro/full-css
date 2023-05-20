@@ -7,6 +7,7 @@ const Home = () => {
       <Link to="/basico2" className="home-link">Basico2</Link>
       <Link to="/position" className="home-link">Position</Link>
       <Link to="/text" className="home-link">Text</Link>
+      <Link to="/responsive" className="home-link">Responsive</Link>
     </div>)
 }
 
