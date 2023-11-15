@@ -5,6 +5,8 @@ import Home from './routes/Home'
 import PositionInfo from './routes/PositionInfo';
 import Text from './routes/Text';
 import Responsive from './routes/Responsive';
+import Animations from './routes/Animations';
+import Transitions from './routes/Transitions';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/position" element={<PositionInfo />} />
           <Route path="/text" element={<Text />} />
           <Route path="/responsive" element={<Responsive />} />
+          <Route path="/animations" element={<Animations />} />
+          <Route path="/transitions" element={<Transitions />} />
         </Routes>
       </BrowserRouter>
     </div>

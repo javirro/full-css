@@ -8,6 +8,8 @@ const Home = () => {
       <Link to="/position" className="home-link">Position</Link>
       <Link to="/text" className="home-link">Text</Link>
       <Link to="/responsive" className="home-link">Responsive</Link>
+      <Link to="/animations" className="home-link">Animations</Link>
+      <Link to="/transitions" className="home-link">Transitions</Link>
     </div>)
 }
 
